@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- For proper rendering on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/superslides.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    
+    <!-- CSS Bootstrap(getbootstrap.com) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    /> -->
+    
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.8/css/all.css"
+      integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S"
+      crossorigin="anonymous"
+    />
+    <!-- Fancyapps -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"
+    />
+
+    <!-- Use custom file below all the others -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- jQuery CDN(Content Delivery Network) Google - provides a link that hosts the actual codes -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  </head>
+  <body>
+    <div class="loader">
+      <div class="inner"></div>
+    </div>
+
+    <div id="slides">
+      <div class="overlay"></div>
+      <div class="slides-container">
+        <!-- images taken from pexels.com -->
+        <img src="img/slide-1.jpg" alt="" />
+        <img src="img/slide-2.jpg" alt="" />
+        <img src="img/slide-3.jpg" alt="" />
+        <img src="img/slide-4.jpg" alt="" />
+      </div>
+
+      <div class="title-message">
+        <div class="heading">
+          <p class="main">ALIF AZMEER</p>
+          <p class="sub typed"></p>
+        </div>
+      </div>
+
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+    </div>
+
+    <!-- Bootstrap Navbar -->
+    <nav id="navigation" class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html">Menu</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about"
+              >About <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stats">Stats</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="about" class="section">
+      <!-- BS class -->
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Bootstrap class - grid system -->
+          <div class="col-md-5">
+            <img class="about-image" src="img/myself2.jpg" alt="" />
+          </div>
+          <div class="col-md-7">
+            <h4 style="color:#fff;text-align:center;">Hey there, I'm Alif!</h4>
+            <p style="color:#fff;text-align:center;">
+              My name's Alif Azmeer Khandker. I'm from Dhaka, Bangladesh. I've earned my Bachelor's degree in Computer Science And Engineering. Currently I'm involved in web development, content writing and online tutoring. I've taken a keen interest towards web design and development, and I intend on making this passion of mine into a full time career. 
+            </p>
+            <p style="color:#fff;text-align:center;">
+              I love listening to music mostly. Growing up, the guitar really fascinated me and along the way, I eventually picked that up as a hobby! Every now and then I make covers of my favorite songs... now that's what I call - bliss! Of the many other interests, anime is part of life too! Delved into binge watching, and hours just pass by!     
+            </p>
+            <p style="color:#fff;text-align:center;">Did I say that I love travelling? It's a great way to not only get exposed to the vast world out there, but to also explore and get to know myself better. As the Chinese proverb goes ~ "Don't listen to what they say. GO SEE.." Oh and lastly, just so you know, I'm a cat person!</p>
+
+            <div class="a-container">
+              <a href="img/Alif_Azmeer_CV.docx" class="contact-button position" download>DOWNLOAD CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills" class="skills-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skill</p>
+            <div class="owl-carousel owl-theme">
+              <div class="skills">
+                <span class="chart" data-percent="77">
+                  <span class="percent">77</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>JavaScript</h4>
+                <p>Used in most of my web projects</p>
+              </div>
+
+              <div class="skills">
+                <span class="chart" data-percent="85">
+                  <span class="percent">85</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>HTML5</h4>
+                <p>Used in markups</p>
+              </div>
+
+              <div class="skills">
+                <span class="chart" data-percent="80">
+                  <span class="percent">80</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>CSS3</h4>
+                <p>Used in styling my websites</p>
+              </div>
+
+              <div class="skills">
+                <span class="chart" data-percent="75">
+                  <span class="percent">75</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>PHP</h4>
+                <p>Used in backend scripting</p>
+              </div>
+
+              <div class="skills">
+                <span class="chart" data-percent="70">
+                  <span class="percent">70</span>
+                  <canvas height="152" width="152"></canvas>
+                </span>
+                <h4>MySQL</h4>
+                <p>Used as database</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="stats" class="stats-section section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 cold-sm-6">
+            <div class="square-item">
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-clock"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">6</h2>
+                  <h3>Months Experience</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 cold-sm-6">
+            <div class="square-item">
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-calendar"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">3</h2>
+                  <h3>Clients</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 cold-sm-6">
+            <div class="square-item">
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-bolt"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">2</h2>
+                  <h3>Apps Made</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-3 cold-sm-6">
+            <div class="square-item">
+              <div class="square-inner-container">
+                <div class="square-icon">
+                  <i class="fa fa-cloud"></i>
+                </div>
+                <div class="square-content">
+                  <h2 class="counter">5</h2>
+                  <h3>Websites Made</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contact-section section">
+      <div class="col-md-12 text-center">
+        <p class="sub-heading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+        <!-- Prepares the email client for sending message to the mail specified in href -->
+        <a href="mailTo:aa044376@gmail.com" class="contact-button"
+          >GET IN TOUCH!</a
+        >
+      </div>
+    </div>
+
+    <div id="portfolio" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="heading">
+            <h2 style="color: #05111a;">PORTFOLIO</h2>
+          </div>
+
+          <div class="filter">
+            <ul id="filters">
+              <!-- # won't take you anywhere. data-filter communicates with the isotope file -->
+              <li><a href="#" data-filter="*" class="current">ALL</a></li>
+              <li><a href="#" data-filter=".apps">Apps</a></li>
+              <!-- <li><a href="#" data-filter=".me">Me</a></li> -->
+              <li><a href="#" data-filter=".websites">Websites</a></li>
+            </ul>
+          </div>
+
+          <div class="item-container">
+            <ul class="items">
+              <!-- To address the issue of icons not showing in iOS device -->
+              <!-- <li onClick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li> -->
+
+              <li
+                onClick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/onebite.png" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/omnifood_lg.png"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a food delivery static website."
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="https://azmeer95.github.io/Food-Delivery/" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li>
+
+              <!-- <li onClick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li onClick="" class="me col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li> -->
+
+              <!-- <li onClick="" class="apps col-xs-6 col-sm-4 col-md-3 col-lg-3">
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li> -->
+
+              <li
+                onClick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/ecom.png" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/ecom_lg.png"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="A simple ecommerce template."
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="https://azmeer95.github.io/panda_commerce/" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li>
+
+              <!-- <li
+                onClick=""
+                class="websites col-xs-6 col-sm-4 col-md-3 col-lg-3"
+              >
+                <div class="item">
+                  <img src="img/portfolio/thumbnails/dog-square.jpeg" alt="" />
+                  <div class="icons">
+                    <a
+                      href="img/portfolio/dog.jpeg"
+                      title="View Image"
+                      class="open-button"
+                      data-fancybox
+                      data-caption="This is a cute dog"
+                    >
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <a href="" target="_blank" class="project-link">
+                      <i class="fa fa-link"></i>
+                    </a>
+                  </div>
+
+                  <div class="image-overlay"></div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright-section">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Alif Azmeer 2020</p>
+      </div>
+    </div>
+
+    <!-- .min - minified to save memory and load up faster -->
+    <script src="js/jquery.superslides.min.js"></script>
+    <!-- CountUp -->
+    <script src="js/countUp.js"></script>
+    <script src="js/countUp-jquery.js"></script>
+    <!-- Owl Carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Easy Pie Chart -->
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <!-- typed.js library link -->
+    <script src="js/typed.min.js"></script>
+    <!-- Popper.js link needs to be above -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    
+    <!-- <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script> -->
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <!-- Isotope -->
+    <script src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <!-- Fancyapp -->
+    <!-- <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+    <!-- The code below has been commented out to remove error of slider not working -->
+    <!-- Bootstrap JS(getbootstrap.com) -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
